@@ -8,3 +8,17 @@ python vrgbx_edit_inference.py \
     --task light_color --ref_rgb_path /home/csm/V-RGBX/output/inverse_rendering/luo/image2.png\
     --edit_type irradiance --drop_type normal --width 1280 --height 720 --num_frames 49
 ```
+
+模型路径：
+```
+V-RGBX/                              # Project root for the V-RGBX framework
+├── assets/                          # Media resources(logos, figures, etc)
+├── examples/                        # Example videos, intrinsics, and reference images
+├── models/                          # Model weights directory
+    ├── V-RGBX/                      # V-RGBX intrinsic rendering models
+    │   ├── vrgbx_forward_renderer.safetensors   
+    │   └── vrgbx_inverse_renderer.safetensors   
+    └── Wan-AI/                      # Pretrained backbone (Wan)
+        └── Wan2.1-T2V-1.3B/          
+└── vrgbx/                           # Core V-RGBX codebase 
+```
