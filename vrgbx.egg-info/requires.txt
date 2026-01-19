@@ -1,0 +1,17 @@
+torch>=2.0.0
+torchvision
+transformers
+imageio
+imageio[ffmpeg]
+safetensors
+einops
+sentencepiece
+protobuf
+modelscope
+ftfy
+pandas
+opencv-python
+accelerate
+peft
+s3fs
+datasets

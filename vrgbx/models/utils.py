@@ -65,6 +65,7 @@ def load_state_dict_from_folder(file_path, torch_dtype=None):
 
 
 def load_state_dict(file_path, torch_dtype=None, device="cpu"):
+    print(file_path)
     if file_path.endswith(".safetensors"):
         return load_state_dict_from_safetensors(file_path, torch_dtype=torch_dtype, device=device)
     else:

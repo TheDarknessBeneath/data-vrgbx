@@ -387,8 +387,8 @@ class VRGBXPipeline(BasePipeline):
         seed: Optional[int] = None,
         rand_device: Optional[str] = "cpu",
         # Shape
-        height: Optional[int] = 480,
-        width: Optional[int] = 832,
+        height: Optional[int] = 720,
+        width: Optional[int] = 1280,
         num_frames=81,
         # ========== 文本CFG ==========
         cfg_scale: Optional[float] = 5.0,
